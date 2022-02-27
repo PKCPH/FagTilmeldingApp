@@ -1,1 +1,11 @@
-﻿//Iteration1_Arv branch
+﻿//Iteration 2
+
+Console.WriteLine("Angiv skole: ");
+string? schoolName = Console.ReadLine();
+
+Console.WriteLine("Angiv hovedforløb: ");
+string? schoolCourse = Console.ReadLine();
+
+Console.WriteLine($"{schoolName}, {schoolCourse} fag tilmeldning app.");
+
+Console.ReadKey();
